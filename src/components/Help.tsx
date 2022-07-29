@@ -2,72 +2,29 @@
 // @ts-ignore
 import React from "react";
 import { Accordion } from "flowbite-react";
-
+import { repo } from "../constants/";
 const Help = () => {
 	return (
 		<Accordion>
 			<Accordion.Panel>
-				<Accordion.Title>What is Flowbite?</Accordion.Title>
+				<Accordion.Title>How to Move?</Accordion.Title>
 				<Accordion.Content>
 					<p className="mb-2 text-gray-500 dark:text-gray-400">
-						Flowbite is an open-source library of interactive components built
-						on top of Tailwind CSS including buttons, dropdowns, modals,
-						navbars, and more.
-					</p>
-					<p className="text-gray-500 dark:text-gray-400">
-						Check out this guide to learn how to{" "}
-						<a
-							href="https://flowbite.com/docs/getting-started/introduction/"
-							className="text-blue-600 hover:underline dark:text-blue-500"
-						>
-							get started
-						</a>{" "}
-						and start developing websites even faster with components on top of
-						Tailwind CSS.
+						You have to press the arrow keys or WASD to move.
 					</p>
 				</Accordion.Content>
 			</Accordion.Panel>
 			<Accordion.Panel>
-				<Accordion.Title>Is there a Figma file available?</Accordion.Title>
+				<Accordion.Title>Is it open source?</Accordion.Title>
 				<Accordion.Content>
 					<p className="mb-2 text-gray-500 dark:text-gray-400">
-						Flowbite is first conceptualized and designed using the Figma
-						software so everything you see in the library has a design
-						equivalent in our Figma file.
-					</p>
-					<p className="text-gray-500 dark:text-gray-400">
-						Check out the{" "}
+						Yes, the github repo is &nbsp;
 						<a
-							href="https://flowbite.com/figma/"
+							href={repo}
 							className="text-blue-600 hover:underline dark:text-blue-500"
 						>
-							Figma design system
-						</a>{" "}
-						based on the utility classes from Tailwind CSS and components from
-						Flowbite.
-					</p>
-				</Accordion.Content>
-			</Accordion.Panel>
-			<Accordion.Panel>
-				<Accordion.Title>
-					What are the differences between Flowbite and Tailwind UI?
-				</Accordion.Title>
-				<Accordion.Content>
-					<p className="mb-2 text-gray-500 dark:text-gray-400">
-						Flowbite is first conceptualized and designed using the Figma
-						software so everything you see in the library has a design
-						equivalent in our Figma file.
-					</p>
-					<p className="text-gray-500 dark:text-gray-400">
-						Check out the{" "}
-						<a
-							href="https://flowbite.com/figma/"
-							className="text-blue-600 hover:underline dark:text-blue-500"
-						>
-							Figma design system
-						</a>{" "}
-						based on the utility classes from Tailwind CSS and components from
-						Flowbite.
+							open source
+						</a>
 					</p>
 				</Accordion.Content>
 			</Accordion.Panel>

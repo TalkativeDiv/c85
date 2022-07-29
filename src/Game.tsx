@@ -8,6 +8,8 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { css, cx } from "@emotion/css";
 import tw from "twin.macro";
+import { repo } from "./constants/";
+
 /**
  * Game: The Main Game Component
  * @return {JSX.Element} The JSX Code for the Home Page
@@ -22,7 +24,10 @@ const Game = () => {
 			</motion.div>
 			<br />
 			<div className="flex justify-center items-center">
-				<StyledButtonPrimaryWrapper className="group-hover:from-purple-600 group-hover:to-blue-500 group">
+				<StyledButtonPrimaryWrapper
+					className="group-hover:from-purple-600 group-hover:to-blue-500 group"
+					href={repo}
+				>
 					<StyledButtonPrimarySpan className="group-hover:bg-opacity-0">
 						Github
 					</StyledButtonPrimarySpan>

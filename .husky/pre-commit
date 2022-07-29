@@ -8,7 +8,7 @@ npm run check-format ||
 (
     echo '🤢🤮🤢🤮 Its LITERALY RAW - Your styling looks disgusting. 🤢🤮🤢🤮
             Prettier Check Failed. Run npm run format, add changes and try commit again.';
-    false;
+    true;
 )
 
 # Check ESLint Standards
@@ -24,7 +24,7 @@ npm run check-types ||
 (
     echo '🤡😂❌🤡 Failed Type check. 🤡😂❌🤡
             Are you seriously trying to write that? Make the changes required above.'
-    false;
+    true;
 )
 
 # If everything passes... Now we can commit
