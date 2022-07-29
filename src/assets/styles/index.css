@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root,
+.flx-full {
+	@apply flex justify-center items-center flex-col min-w-[100vw] min-h-[100vh] gap-4;
+}
+
+/*canvas {
+	@apply m-0 rounded-[1rem] border border-slate-300 shadow-md;
+	box-shadow: 0 0 #0000, 0 0 #0000 0 0 #0000 0, 4px 6px -1px #0000001a,
+		0 2px 4px -2px #0000001a;
+}
+*/
+/*.btn-github {
+	@apply text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700;
+}*/
